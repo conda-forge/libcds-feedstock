@@ -13,7 +13,7 @@ build:
   skip: true  # [win or osx]
   error_overlinking: true
   error_overdepending: true
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage('libcds', max_pin='x.x') }}
 
@@ -43,7 +43,7 @@ about:
   license_file:
     - COPYING
     - COPYING-GPL-3
-  summary: Library for advinced LIGO frequency domain diagnostics tool
+  summary: Utility C library used in various Advanced LIGO data systems tools.
 
 extra:
   recipe-maintainers:
